@@ -29,6 +29,12 @@ import asyncio
 import traceback
 import pygame
 
+# Scientific Showcase Project: EvolutionaryAlgorithm
+# Developed for the JOSEPHS Exhibition.
+# Disclaimer: The architecture, simulation logic, and visual rendering of this
+# project were co-developed with Artificial Intelligence (Claude 3.5 Sonnet /
+# Gemini) to demonstrate the capabilities of Evolutionary Algorithms.
+
 
 async def main():
     """
@@ -41,7 +47,7 @@ async def main():
     executing and the browser would show a silent grey page with no error.
     """
     try:
-        from simulation import SimulationEngine   # deferred import — errors are catchable here
+        from SBS.simulation import SimulationEngine   # deferred import — errors are catchable here
         engine = SimulationEngine()
         await engine.run()
 
