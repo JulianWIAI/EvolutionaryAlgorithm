@@ -1,6 +1,10 @@
 # Smart Swarm — Evolutionary Algorithm Showcase
 
-![Showcase](placeholder_image.png)
+![Start Screen](assets/screenshots/start-screen.png)
+
+![Target Reached](assets/screenshots/target-reached-screen.png)
+
+> Add your screenshots to `assets/screenshots/` using the filenames above.
 
 ---
 
